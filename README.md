@@ -1,1 +1,0 @@
-My own version of Google search page.
