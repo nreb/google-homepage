@@ -7,10 +7,7 @@
                 margin: 0;
                 padding: 8px;
                 width: 60px;
-            }
-            li {
-                display:inline;
-    
+                display: block;
             }
             #about {
                 position: absolute;
@@ -60,13 +57,53 @@
             .search {
                 position: absolute;
                 top: 380px;
-                left: 500px;
+                left: 550px;
                 
             }
             body, input, button {
                 font-size: 14px;
                 font-family: Roboto, arial, sans-serif;
                 color: #222;
+            }
+            .feeling {
+                position: absolute;
+                top: 380px;
+                left: 750px;
+            }  
+            #advertising {
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+            }
+            #business {
+                position: absolute;
+                bottom: 10px;
+                left: 120px;
+            }
+            #works {
+                position: absolute;
+                bottom: 10px;
+                left: 250px;
+            }
+            #carbon {
+                position: absolute;
+                bottom: 10px;
+                left: 600px;
+            }
+            #privacy {
+                position: absolute;
+                bottom: 10px;
+                right: 250px;
+            }
+            #terms {
+                position: absolute;
+                bottom: 10px;
+                right: 150px;
+            }
+            #settings {
+                position: absolute;
+                bottom: 10px;
+                right: 20px;
             }
 
         </style>
@@ -76,17 +113,17 @@ Google Homepage
     </head>
     <header>
         <ul>
-            <li id="about"><a href="#">About</a>
+            <li id="about"><a href="#" style="text-decoration: none;">About</a>
             </li>
-            <li id="store"><a href="#">Store</a>
+            <li id="store"><a href="#" style="text-decoration: none;">Store</a>
             </li>
-            <li id="gmail"><a href="#">Gmail</a>
+            <li id="gmail"><a href="#" style="text-decoration: none;">Gmail</a>
             </li>
-            <li id="image"><a href="#">Images</a>
+            <li id="image"><a href="#" style="text-decoration: none;">Images</a>
             </li>
-            <li id="google"><a href="#">Google Apps</a>
+            <li id="google"><a href="#" style="text-decoration: none;">Google Apps</a>
             </li>
-            <li id="signin"><a href="#">Sign in</a>
+            <li id="signin"><a href="#" style="text-decoration: none;">Sign in</a>
             </li>
         </ul>
         </header>
@@ -100,23 +137,23 @@ Google Homepage
         <br>
 <button class="search" type="submit">Google Search
 </button>
-<button type="submit">I'm Feeling Lucky
+<button class="feeling" type="submit">I'm Feeling Lucky
 </button>
 <footer>
     <ul>
-        <li><a href="#">Advertising</a>
+        <li id="advertising"><a href="#" style="text-decoration: none;">Advertising</a>
         </li>
-        <li><a href="#">Business</a>
+        <li id="business"><a href="#" style="text-decoration: none;">Business</a>
         </li>
-        <li><a href="#">How Search works</a>
+        <li id="works"><a href="#" style="text-decoration: none;">How Search works</a>
         </li>
-        <li><a href="#">Carbon neutral since 2007</a>
+        <li id="carbon"><a href="#" style="text-decoration: none;">Carbon neutral since 2007</a>
         </li>
-        <li><a href="#">Privacy</a>
+        <li id="privacy"><a href="#" style="text-decoration: none;">Privacy</a>
         </li>
-        <li><a href="#">Terms</a>
+        <li id="terms"><a href="#" style="text-decoration: none;">Terms</a>
         </li>
-        <li><a href="#">Settings</a>
+        <li id="settings"><a href="#" style="text-decoration: none;">Settings</a>
         </li>
     </ul>
 </footer>
