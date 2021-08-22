@@ -7,7 +7,7 @@
                 margin: 0;
                 padding: 8px;
                 width: 60px;
-                display: block;
+                display: inline-block;
             }
             #about {
                 position: absolute;
@@ -36,28 +36,35 @@
             }
             #signin {
                 position: absolute;
-                top: 70px;
-                right: 20px;
+                top: 65px;
+                right: 10px;
+                background-color: rgb(91, 91, 245);
+                border-radius: 3px;
+                font-weight: bold;
+                padding: 7px 15px;
+                margin-right: 25px;
+
             }
             .image {
                 position: absolute;
                 top: 150px;
-                left: 500px;
+                left: 600px;
             
             }
             .text {
                 position: absolute;
                 top: 300px;
-                left: 350px;
-                border-color: rgb(204, 201, 201);
+                left: 400px;
+                border-color: rgb(241, 240, 240);
                 width: 700px;
                 border-radius: 25px;
                 padding: 15px;
+                border-style: solid;
             }
             .search {
                 position: absolute;
                 top: 380px;
-                left: 550px;
+                left: 620px;
                 
             }
             body, input, button {
@@ -68,7 +75,7 @@
             .feeling {
                 position: absolute;
                 top: 380px;
-                left: 750px;
+                left: 800px;
             }  
             #advertising {
                 position: absolute;
@@ -105,6 +112,19 @@
                 bottom: 10px;
                 right: 20px;
             }
+            a {
+                color: rgba(0, 0, 0, 0.89);
+            }
+            #signin:hover { 
+                box-shadow: 1px 1px 5px #999;
+            }
+            footer  {
+                background: #f2f2f2;
+                bottom: 0;
+                padding-bottom: 0;
+                width: 100%;
+            }
+
 
         </style>
         <h1 id="title">
@@ -117,7 +137,7 @@ Google Homepage
             </li>
             <li id="store"><a href="#" style="text-decoration: none;">Store</a>
             </li>
-            <li id="gmail"><a href="#" style="text-decoration: none;">Gmail</a>
+            <li id="gmail"><a href="#" style="text-decoration: none;" >Gmail</a>
             </li>
             <li id="image"><a href="#" style="text-decoration: none;">Images</a>
             </li>
